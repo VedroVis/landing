@@ -1,0 +1,175 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: Roboto;
+}
+
+header {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 200px;
+}
+
+header h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+header li {
+    font-size: 16px;
+    color: #F9FAF8;
+    list-style-type: none;
+}
+
+ul {
+    display: flex;
+    gap: 16px;
+}
+
+/*hero section */
+
+.heroBanner {
+    display: flex;
+    padding: 100px 200px;
+    justify-content: center;
+    background-color: #1f2937;
+    align-items: center;
+    gap: 150px;
+
+}
+
+#heroHeader {
+    font-size: 48px;
+    font-weight:800;
+    color: #F9FAF8;
+    margin-bottom: 16px;
+}
+
+.heroImg {
+    width: 550px;
+}
+
+
+.heroText {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+
+.heroButton {
+    padding: 12px 24px;
+    font-size: 20px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+
+/* facts section with cards */
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex-basis: 250px;
+    text-align: center;
+}
+
+.cardDesc {
+    margin-top: 32px;
+    font-size: 20px;
+    color: #1f2937;
+
+}
+
+h2#infoHeader {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 800;
+    text-align: center;
+    margin: 64px;
+}
+
+i {
+    border:#1f2937 3px solid;
+    padding: 30px;
+    border-radius: 100%;
+}
+
+/*quote*/
+
+.quote {
+    margin: 64px 0px;
+    background-color: #e5e7eb;
+    padding: 100px 350px;
+
+}
+
+.quoteText {
+    text-align: center;
+    font-size: 36px;
+    color:#1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoteAuthor {
+    text-align: right;
+    color: black;
+    font-size: 22px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+
+/* CTA */
+
+.callToAction {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 20px;
+    margin: 100px 200px;
+}
+
+.ctaHeader {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 4px;
+}
+
+.ctaText {
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.ctaButton {
+    font-size: 20px;
+    padding: 12px 24px;
+    background-color: #3882f6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    font-weight: 800;
+}
+
+/*footer*/
+
+footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: white;
+    font-size: 18px;
+    padding: 25px;
+}
